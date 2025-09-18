@@ -21,7 +21,7 @@ async def search_web(query: str) -> dict | None:
     payload = json.dumps({"q": query, "num": 2})
 
     headers = {
-        "X-API-KEY": os.getenv("SERPER_API_KEY"),
+        "github_api_key": 'pat-eu1-dc46p8e7-a90a-4b92-81c3-657b97f19eac',
         "Content-Type": "application/json",
     }
 
